@@ -24,7 +24,7 @@ public class Radio {
 
     public void prevStationNumberIfNull() {
 
-        if (currentStationNumber <= 0) {
+        if (currentStationNumber == 0) {
             currentStationNumber = 9;
         }
     }
@@ -49,19 +49,23 @@ public class Radio {
         if (currentVolume < 100) {
             currentVolume = currentVolume + 1;
         }
+
     }
 
     public void decreaseVolume() {
-        if (currentVolume < 100) {
+        if (currentVolume < 101) {
             currentVolume = currentVolume - 1;
         }
+
     }
+
     public void shouldNotIncreaseVolumeAboveMax() {
         if (currentVolume > 100) {
             currentVolume = 100;
         }
     }
-    public void  shouldNotDecreaseVolumeBelowMin() {
+
+    public void shouldNotDecreaseVolumeBelowMin() {
         if (currentVolume < 0) {
             currentVolume = 0;
         }
