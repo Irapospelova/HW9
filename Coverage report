@@ -1,0 +1,15 @@
+
+Element	                         Missed Instructions	Cov.	Missed Branches Cov.
+nextStationNumber()	              18	100 %	                4	100 %
+prevStationNumber()	              11	100 %	                11	50 %
+increaseVolume()	              11	100 %	                11	50 %
+decreaseVolume()	              11	100 %	                11	50 %
+shouldNotIncreaseVolumeAboveMax()   8	100 %	                2	100 %
+prevStationNumberIfNull()	        7	100 %	                2	100 %
+shouldNotDecreaseVolumeBelowMin()	7	100 %	                2	100 %
+setCurrentStationNumber(int)	    4	100 %		            n/a
+setCurrentVolume(int)	            4	100 %		            n/a
+Radio()                         	3	100 %		            n/a
+getCurrentStationNumber()	        3	100 %		            n/a
+getCurrentVolume()              	3	100 %		            n/a
+Total		3 of 16	81 %
